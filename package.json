@@ -1,0 +1,26 @@
+{
+  "name": "plataforma-ead",
+  "version": "0.0.1",
+  "description": "API de plataforma de Ensino a distância",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "nodemon src/index"
+  },
+  "keywords": [
+    "Plataforma",
+    "EAD",
+    "Programador",
+    "a",
+    "Bordo"
+  ],
+  "author": "Ayrton Teshima",
+  "license": "MIT",
+  "devDependencies": {
+    "nodemon": "^1.19.0"
+  },
+  "dependencies": {
+    "@hapi/hapi": "^18.3.1",
+    "save": "^2.3.3"
+  }
+}
